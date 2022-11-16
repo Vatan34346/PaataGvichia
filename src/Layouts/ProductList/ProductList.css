@@ -1,0 +1,21 @@
+.listContainer{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.categoryNameContainer{
+    height: 100%;
+}
+
+.categoryName{
+    font-weight: lighter;
+}
+
+.productList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}

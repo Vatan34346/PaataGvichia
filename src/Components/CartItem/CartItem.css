@@ -1,0 +1,89 @@
+.cartContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+.deleteCartIcon{
+    position:absolute;
+    top:25px;
+    right: 0px;
+    width: 35px;
+    z-index: 5;
+    height: 35px;
+}
+
+.deleteCartIcon:hover{
+    cursor: pointer;
+}
+
+.cartInfo{
+    padding-top: 30px;
+}
+
+.cartPriceValue{
+   margin: 0;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+/* picture and buttons */
+.controlls_pic_containet{
+    display: flex;
+    flex-direction: row;
+}
+
+.controlls{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 100%;
+}
+
+/* pic */
+.picContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.pic{
+    width: 100%;
+    height: 200px;
+
+}
+
+
+/* Pic controlls */
+.leftArrow{
+    position: absolute;
+    width: 20px;
+    height:20px;;
+    right: 25px;
+    bottom: 0px;
+}
+.leftArrow:hover{
+    cursor: pointer;
+}
+
+.rightArrow{
+    position: absolute;
+    width: 20px;
+    height:20px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.rightArrow:hover{
+    cursor: pointer;
+}
+

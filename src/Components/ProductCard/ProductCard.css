@@ -1,0 +1,75 @@
+
+.cardContainer{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    padding: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+
+.cardContainer:hover{
+    box-shadow: 5px 10px #888888
+}
+
+
+
+.cardPicture{
+    position: relative;
+    top: 20px;
+}
+
+.cardPic{
+ position: relative;
+ width: 200px;
+ height: 200px;
+ top: 0;
+ left: 0;
+ margin-bottom: 10px;
+}
+
+.carIndicatorPic{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 85%;
+    left: 80%;
+}
+
+.cardProductName{
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.cardProductPrice{
+    margin:0;
+    font-weight: bolder;
+}
+
+
+/* NOT IN STOCK */
+.cardPicNotInStock{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    
+}
+
+.notInStockText{
+    position: absolute;
+    top:65px;
+    left:47px;
+    color: black;
+    text-decoration: none;
+}
+
+

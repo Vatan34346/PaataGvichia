@@ -1,0 +1,80 @@
+
+
+.modalCartListContainer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+
+.emptyModalCartListContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myBag{
+    width: 325px;
+    padding-bottom: 0;
+}
+
+.bagTitle{
+   text-align: center;
+   font-size: larger;
+   font-weight: bold;
+}
+
+.amount{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.amountText{
+    font-size: larger;
+   font-weight: bold;
+}
+
+.empty{
+    text-align: center;
+}
+
+.cartItemListControlls{
+display: flex;
+width: 500px;
+padding-left: 70px;
+flex-direction: row;
+justify-content: space-between;
+padding-bottom: 25px;
+}
+
+.viewBag{
+    display: flex;
+    width: 200px;
+    height: 50px;justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.viewBag:hover{
+    cursor: pointer;
+}
+
+.checkOut{
+    display: flex;
+    width: 200px;
+    height: 50px;justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+}
+.checkOut:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,139 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Pictures */
+.pictureVariants {
+  padding-right: 2rem;
+  display: flex;
+  flex: 1 2 1;
+  flex-direction: column;
+}
+.pictureVariant {
+  height: 50px;
+  margin-bottom: 3px;
+}
+.hightlightedPictureVariant{
+  height: 50px;
+  border:1px solid black
+}
+.mainePicture {
+  flex: 1 1 1;
+  padding-right: 2rem;
+  height: 100%;
+ 
+  width: max-content;
+}
+.picture {
+  width: 490px;
+  height: 490px;
+}
+
+/* Product info */
+.productInfo {
+  flex: 1 2 0;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+}
+
+/* productInfo - Tittles */
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+}
+.productTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: medium;
+  margin: 0;
+}
+.subTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-style: italic;
+  margin: 0;
+}
+
+/* productInfor - Sizes */
+.attributeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.attributeTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 0;
+}
+.attributeOutput {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.attributeItem{
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid black;
+  margin: 0;
+  margin-right: 2%;
+}
+.attributeItemActivated{
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid black;
+  margin: 0;
+  margin-right: 2%;
+  background: #efdecd;
+}
+
+/* productInfor - Price*/
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+}
+.priceTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 0;
+}
+.priceValue {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-style: italic;
+  margin-top: 0;
+}
+
+/* Button */
+.addButton {
+  width: 200px;
+  height: 50px;
+  background-color: green;
+}
+.addButton:hover {
+  background-color: darkgreen;
+}
+.buttonText {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  font-size: larger;
+}
+
+/* decription */
+.decription {
+  width: 20rem;
+}
+.descriptionText {
+  font-size: smaller;
+}

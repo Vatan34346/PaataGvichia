@@ -1,0 +1,93 @@
+
+.modalSubTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  font-style: italic;
+  margin: 0;
+}
+
+.modalProductTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: small;
+  margin: 0;
+}
+
+.modalCartContainer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding-top: 25px;
+  margin: 25px;
+  width: 100%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+
+.modalCartInfo{
+  padding-top: 30px;
+  width:180px;
+}
+
+.modalCartPriceValue{
+ margin: 0;
+  font-size: small;
+  font-weight: bold;
+}
+
+
+/* picture and buttons */
+.modalControlls_pic_containet{
+  display: flex;
+  flex-direction: row;
+}
+
+.modalControlls{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 100%;
+}
+
+/* pic */
+.modalPicContainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.modalPic{
+  width: 100%;
+  height: 200px;
+
+}
+
+
+/* Pic controlls */
+.modalLeftArrow{
+  position: absolute;
+  width: 20px;
+  height:20px;;
+  right: 25px;
+  bottom: 0px;
+}
+.modalLeftArrow:hover{
+  cursor: pointer;
+}
+
+.modalRightArrow{
+  position: absolute;
+  width: 20px;
+  height:20px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.modalRightArrow:hover{
+  cursor: pointer;
+}
